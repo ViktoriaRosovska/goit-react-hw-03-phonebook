@@ -4,7 +4,6 @@ Notify.init({
   width: 'fit-content',
   padding: '20px',
   position: 'center-top',
-  distance: '200px',
   borderRadius: '15px',
   fontSize: '25px',
   textColor: 'black',

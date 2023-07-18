@@ -25,8 +25,9 @@ export class ContactForm extends Component {
     return (
       <form onSubmit={this.onFormSubmit}>
         <FormWrapper>
-          <label htmlFor="name">Name</label>
+          <label htmlFor="formName">Name</label>
           <FormInput
+            id="formName"
             type="text"
             name="name"
             pattern="^[a-zA-Zа-яА-Я]+(([' \-][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"

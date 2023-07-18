@@ -39,5 +39,5 @@ input {
 }
 input:focus,
 input:hover {
-  border: 2px solid #f26b94;
+  outline: 2px solid #f26b94;
 }

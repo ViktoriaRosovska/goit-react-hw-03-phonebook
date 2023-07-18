@@ -25,6 +25,12 @@ const Container = styled.div`
 const HeaderApp = styled.h1`
   font-size: 50px;
   padding-bottom: 50px;
+  background-color: #f26b94;
+  color: transparent;
+  text-shadow: -1px 1px 2px rgba(255, 255, 255, 0.3);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
 `;
 
 const AddContactWrapper = styled.div`
