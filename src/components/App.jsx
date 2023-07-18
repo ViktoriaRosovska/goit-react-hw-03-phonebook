@@ -57,6 +57,7 @@ export class App extends Component {
       });
     }
   }
+
   componentDidUpdate(_, prevState) {
     if (prevState.contacts !== this.state.contacts) {
       window.localStorage.setItem(
